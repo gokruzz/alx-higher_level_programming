@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
-for char in range(ord('a'), ord('z')+1):
-    if chr(char) not in ['q', 'e']:
-	print("{0}" .format(chr(char)), end='')
+for i in range(ord('a'), ord("z")+1):
+    if chr(i) not in ['q', 'e']:
+        print("{0}" .format(chr(i)), end='')
