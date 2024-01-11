@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-def simple_delete(a_dictionary, key=""):
-    if key in a_dictionary.keys():
-        del a_dictionary[key]
+def update_dictionary(a_dictionary, key, value):
+    a_dictionary[key] = value
     return a_dictionary
